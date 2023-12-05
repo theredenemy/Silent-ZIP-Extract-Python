@@ -15,7 +15,6 @@ if isdirchkzip == True:
    time.sleep(2.4)
    shutil.rmtree(extract_dir)
    time.sleep(2.4)
-   # shutil.copyfile(path_to_zip,"limbokeys.zip")
 if istempdirchk == True:
    time.sleep(1.5)
    shutil.rmtree(tempdir)
